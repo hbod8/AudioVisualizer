@@ -3,7 +3,7 @@
 
 CC = gcc
 CFLAGS = -g -Wall
-FILES = av.o
+FILES = av.o display.o
 
 ush: $(FILES)
 	$(CC) $(CFLAGS) -o av $(FILES)
